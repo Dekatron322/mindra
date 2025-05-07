@@ -2,11 +2,11 @@
 
 import React from "react"
 import Modal from "react-modal"
-import CloseIcon from "public/close-icon"
 import { ButtonModule } from "../Button/Button"
 import { useDispatch } from "react-redux"
 import { logout } from "app/api/store/authSlice"
 import { useRouter } from "next/navigation"
+import CloseIcon from "public/close-icon"
 
 interface LogoutModalProps {
   isOpen: boolean

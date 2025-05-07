@@ -3,9 +3,10 @@
 
 import React, { useState } from "react"
 import Modal from "react-modal"
-import CloseIcon from "public/close-icon"
+
 import { ButtonModule } from "../Button/Button"
 import { FormInputModule } from "../Input/Input"
+import CloseIcon from "public/close-icon"
 
 interface DisableBusinessModalProps {
   isOpen: boolean
