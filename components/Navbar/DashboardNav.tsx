@@ -5,13 +5,8 @@ import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import FormatAlignLeftIcon from "@mui/icons-material/FormatAlignLeft"
-import { SearchModule } from "components/ui/Search/search-module"
-import UserDropdown from "components/ui/UserDropdown/dropdown-popover"
-import NotificationDropdown from "components/ui/UserDropdown/notification-popover"
 import { RxCross2 } from "react-icons/rx"
 import { Links } from "components/Sidebar/Links"
-import Messageicon from "public/Icons/message-icon"
-import MessageDropdown from "components/ui/UserDropdown/message-popover"
 import NotificationIcon from "public/images/notification-icon"
 
 const DashboardNav = () => {
