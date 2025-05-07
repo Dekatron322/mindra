@@ -169,7 +169,7 @@ const SignUp: React.FC = () => {
                 </form>
 
                 <p className="mt-4 text-center">
-                  Don't have an account ?{" "}
+                  Don&lsquo;t have an account ?{" "}
                   <Link
                     href="/signup"
                     className="text-[#3841C0] transition-all duration-200 ease-in-out hover:text-[#2a32a8]"

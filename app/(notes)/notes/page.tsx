@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef, ChangeEvent, KeyboardEvent, useEffect } from "react"
+import { ChangeEvent, useRef, useState } from "react"
 import DashboardNav from "components/Navbar/DashboardNav"
 
 import Image from "next/image"
