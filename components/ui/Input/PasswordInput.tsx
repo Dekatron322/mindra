@@ -49,7 +49,11 @@ export const PasswordInputModule: React.FC<PasswordInputProps> = ({
           onBlur={() => setIsFocused(false)}
         />
         <button type="button" className="ml-2 rounded-full p-1   focus:outline-none" onClick={togglePasswordVisibility}>
-          {isPasswordVisible ? <RiEye2Line /> : <RiEyeCloseLine />}
+          {isPasswordVisible ? (
+            <RiEye2Line className="text-[#707070]" />
+          ) : (
+            <RiEyeCloseLine className="text-[#707070]" />
+          )}
         </button>
       </div>
     </div>
